@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>header}}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {{>navbar}}
+   
+   <Div class="hl-image"> <img src="https://iitb-wustl.org/images/banner-2.jpg" height=500px width= 100% alt="IIT B image">   </Div>
+   <Div  class="hl-text">
+        <h1>Doubt Posting Section</h1>
+         </Div>
+    <Div class="navi">
+    <nav>
+     <ul>
+         <li class="l1"><u>Home </u></li> <li class="l3"><a href="/post">Register</a></li>  
+     </ul>   
+    </nav>    
+    </Div>
+    <Div class="more"><big><u><b><pre>To post your doubt, you have to click on register.<br></pre></b></u></big></Div>
+</body>
+<style>
+    @keyframes example{
+    0%{ border-style:ridge;border-color: black;}
+    50%{border-style:ridge; border-color: white;}
+    100% {border-style:none;}
+  
+  }
+  @keyframes example2{
+    from{ margin-left:0em;}
+    to {margin-left:8em;}
+  } 
+  @keyframes example3{
+    from{ margin-left:0em;}
+    to {margin-left:66%;}
+  } 
+  @keyframes typing{
+    from{width:0;}
+    to {width:100%;}
+  }
+    body
+   {
+
+    background-color:floralwhite;
+   }
+  .hl-image{
+    background-image: "https://iitb-wustl.org/images/banner-2.jpg";
+    filter:blur(2px);
+    -Webkit-filter:blur(2px);
+    
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+     margin-top:0em;
+     margin-right,left:0em;
+
+    
+  }  
+  .hl-text{
+       color:rgb(45, 4, 54);
+       font-size: xx-large;
+       text-align: center;
+       font-weight:inherit;
+       margin-left:30%;
+       margin-top:-10em;
+       position:absolute;
+       cursor:pointer;
+       text-decoration:solid;
+       border-style:ridge;
+       animation-name:example;
+       animation-duration: 8s;
+       animation-iteration-count: infinite;
+       animation-timing-function: linear;
+      -webkit-text-stroke:1px rgb(255, 255, 255);
+  }
+      .navi ul{
+  display:flex;
+  
+  font-size: medium;
+  background-color:yellowgreen;
+  color:blue;
+  grid-template-columns: 180px auto;
+  list-style: none;
+  
+ }
+ .l1{
+
+padding-right:1em;
+cursor:pointer;
+}
+.l2{ 
+ margin-left:1em;
+ padding-right:1em;
+ cursor:pointer;
+ color:white;
+}
+.l3{
+margin-left:1em;
+ padding-right:1em;
+ cursor:pointer;
+color:white;
+
+}
+.l4{
+margin-left:1em;
+ padding-right:1em;
+ cursor:pointer;
+color:white;
+}
+.l5{
+margin-left:1em;
+ padding-right:1em;
+ cursor:pointer;
+color:white;
+}
+.l6{
+margin-left:1em;
+ padding-right:1em;
+ cursor:pointer;
+color:white;
+}
+.more{
+ margin-left:7em;
+ color:blueviolet;
+ font-size: larger;
+ animation-name:example3;
+ animation-duration:10s;
+ animation-iteration-count:infinite;
+ animation-direction:alternate;
+ animation-timing-function: linear;
+ } 
+</style>
+</html>
